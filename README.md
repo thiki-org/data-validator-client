@@ -24,3 +24,30 @@ js编译参数
 
 ## tslint.json
 ts代码风格检查
+
+
+# installation guide
+
+see [react & webpack in typescript docs](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)
+* install webpack
+
+```
+npm install -g webpack
+```
+
+* add React and React-DOM
+
+```
+npm install --save react react-dom @types/react @types/react-dom
+```
+
+* add development-time dependencies
+
+```
+npm install --save-dev typescript awesome-typescript-loader source-map-loader
+
+```
+
+# run app
+
+Please check out README_starter.md
